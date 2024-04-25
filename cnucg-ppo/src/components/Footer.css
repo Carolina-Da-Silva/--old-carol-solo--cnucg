@@ -1,6 +1,10 @@
 footer{
     background-color: #d6d6d6;
     padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
 }
 
 footer a {
@@ -10,10 +14,23 @@ footer a {
 
 
 footer .redes_sociais {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
     display: flex;
     gap: .5em;
 }
-
+/*
 footer .redes_sociais img {
     width: 2em;
 }
+
+footer .outros div {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+footer .informacoes {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+*/
