@@ -4,9 +4,7 @@ import Home from "./pages/Home"
 import Footer from "./components/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-
 function App() {
-
   return <>
     <Header />
     <main>

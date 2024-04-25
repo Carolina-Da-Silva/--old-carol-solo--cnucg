@@ -13,13 +13,7 @@ body {
     margin: 0;
 }
 
-
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
     padding: 1em;
     gap: 1em;
     flex-grow: 1;
