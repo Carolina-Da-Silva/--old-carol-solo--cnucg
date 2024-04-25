@@ -15,13 +15,12 @@ export default function () {
                 <img src={fb} alt="" /></a>
             </div>
             <div className="outros">
-                <div>Termos de uso</div>
-                <div>Política de privacidade</div>
+                <div className="termos"><a href="#">Termos de uso</a></div>  
+                <div className="privacidade"><a href="#">Política de privacidade</a></div>
             </div>
             <div className="informacoes">
                 <a href="https://www.camboriu.ifc.edu.br/">Instituto Federal de Educação, Ciência e Tecnologia Catarinense - Campus Camboriú</a>
-                <div className="endereço">Rua: Joaquim Garcia, s/c - CEP 88340-055 - Camboriú - SC </div>
-                <div className="contato">Fone: (47) 2104-0800 </div>
+                <div className="endereço">Rua: Joaquim Garcia, s/c - CEP 88340-055 - Camboriú - SC / Fone: (47) 2104-0800</div>
             </div>
         </footer>
     </>
