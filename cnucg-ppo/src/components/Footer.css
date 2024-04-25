@@ -19,11 +19,11 @@ footer .redes_sociais {
     display: flex;
     gap: .5em;
 }
-/*
+
 footer .redes_sociais img {
     width: 2em;
 }
-
+/*
 footer .outros div {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
