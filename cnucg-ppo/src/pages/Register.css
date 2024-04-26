@@ -1,3 +1,55 @@
-.div{
-    background-color: palevioletred;
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.cadastro {
+    user-select: none;
+    display: grid;
+}
+
+.cadastro .titulo_cad {
+    font-family: "Acme", sans-serif;
+    font-size: 5vh;   
+}
+
+.cadastro .sub_titulo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2vh;
+    width: 45%;
+}
+
+.cadastro .pessoa{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    width: 50%;
+    gap: 10px;
+}
+
+.cadastro .pessoa .pf {
+    font-family: "Acme", sans-serif;
+    font-size: 4vh;
+    background-color: blue;
+}
+
+.cadastro .pessoa .pj {
+    font-family: "Acme", sans-serif;
+    font-size: 4vh;
+    background-color: chocolate;
+
+}
+
+.cadastro .bt {
+    border: none;
+    border-radius: 10px;
+
+}
+
+.cadastro .bt .bt_pf {
+    border: none;
+    background-color: crimson;
+}
+
+.cadastro .bt .bt_pj {
+    border: none;
+    background-color:violet;
 }

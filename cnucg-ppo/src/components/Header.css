@@ -5,6 +5,7 @@ header {
     padding: .5em;
     display: flex;
     width: 100%;
+    user-select: none;
 }
 
 header .logo img {
