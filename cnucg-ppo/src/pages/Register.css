@@ -4,6 +4,8 @@
 .cadastro {
     user-select: none;
     display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .cadastro .titulo_cad {
@@ -21,35 +23,43 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
-    width: 50%;
     gap: 10px;
+    padding: 5px;
 }
 
 .cadastro .pessoa .pf {
     font-family: "Acme", sans-serif;
     font-size: 4vh;
     background-color: blue;
+    width: 100%;
+    
 }
 
 .cadastro .pessoa .pj {
     font-family: "Acme", sans-serif;
     font-size: 4vh;
     background-color: chocolate;
-
+    width: 60%;
 }
 
-.cadastro .bt {
-    border: none;
-    border-radius: 10px;
-
+.cadastro .bt{
+     display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    gap: 10px; 
+    height: 20px;
 }
 
 .cadastro .bt .bt_pf {
     border: none;
-    background-color: crimson;
+    /* border-radius: 60px;*/
+    background-color: #d60f0f;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .cadastro .bt .bt_pj {
     border: none;
-    background-color:violet;
+    /*border-radius: 60px;*/    
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    background-color:#00496b;
 }
