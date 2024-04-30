@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.cad_pessoa .titulo {
+    font-family: "Acme", sans-serif;
+    font-size: 5vh;  
+}
+
+.cad_pessoa .sub_titulo {
+    font-family: "Acme", sans-serif;
+    font-size: 4vh;  
+}
+
+.cad_pessoa .dados {
+    font-family: "Acme", sans-serif;
+    font-size: 3vh;  
+}

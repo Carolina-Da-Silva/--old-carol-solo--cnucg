@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import Footer from "./components/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Register from "./pages/Register"
+import Person from "./pages/Person"
 
 function App() {
   return <>
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cadastro" element={<Register />} />
+          <Route path="/cadastro/pessoa" element={<Person />} />
         </Routes>
       </BrowserRouter>
     </main>
