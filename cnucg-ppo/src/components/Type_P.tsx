@@ -1,5 +1,27 @@
-import "./Type_P.css";
+import "./Type_P.css"
+import styled from "styled-components"
 
+const Cad_pessoa = styled.div``
+const Titulo = styled.div`
+    font-family: "Acme", sans-serif;
+    font-size: 5vh;
+`
+const Sub_titulo = styled.div`
+    font-family: "Acme", sans-serif;
+    font-size: 4vh; 
+`
+const Dados = styled.div`
+    font-family: "Acme", sans-serif;
+    font-size: 3vh;  
+`
+const Nome = styled.div`
+    font-family: "Open Sans", sans-serif;
+    font-size: 2vh;  
+`
+const Dt = styled.div`
+    font-family: "Open Sans", sans-serif;
+    font-size: 2vh;  
+`
 interface Props{
     titulo: String
     sub_titulo: String
@@ -13,22 +35,22 @@ interface Props{
 
 export default function (props: Props) {
     return <>
-        <div className="cad_pessoa">
-            <div className="titulo">
+        <Cad_pessoa>
+            <Titulo>
                 {props.titulo}
-            </div>
-            <div className="sub_titulo">
+            </Titulo>
+            <Sub_titulo>
                 {props.sub_titulo}
-            </div>
-            <div className="dados">
+            </Sub_titulo>
+            <Dados>
                 {props.dados}
-            </div>
-            <div className="nome">
+            </Dados>
+            <Nome>
                 {props.nome}
-            </div>
-            <div className="dt">
+            </Nome>
+            <Dt>
                 {props.data}
-            </div>
+            </Dt>
             <div className="rg">
                 {props.rg}
             </div>
@@ -38,20 +60,6 @@ export default function (props: Props) {
             <div className="sexo">
                 {props.sx}
             </div>
-        </div>
+        </Cad_pessoa>
     </>
 }
-
-/* 
-
-        
-        <span className="icon material-symbols-outlined">
-            {props.icon}
-        </span>
-        
-        <div className="actions">
-            <button data-permission="any only-unlogged" className="show">
-                {props.button}
-            </button>
-        </div>
-*/

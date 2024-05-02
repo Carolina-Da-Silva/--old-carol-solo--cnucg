@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
-.menu-item {
+/* .menu-item {
     --menu-item-size: 250px;
     
     width: var(--menu-item-size);
@@ -16,11 +16,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
-.menu-item .title {
+/* .menu-item .title {
     font-family: "Open Sans", sans-serif;
-}
+} */
 
 .menu-item .icon {
     display: flex;
@@ -30,10 +30,10 @@
     font-size: 7em
 }
 
-.menu-item .actions {
+/* .menu-item .actions {
     height: 100px;
 }
-
+ */
 .menu-item .actions button{
     height: 100%;
     background-color: #d4d4d4;

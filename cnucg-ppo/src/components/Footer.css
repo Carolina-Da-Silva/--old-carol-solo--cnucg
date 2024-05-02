@@ -1,4 +1,4 @@
-footer {
+/* footer {
     background-color: #d6d6d6;
     padding: 1em;
     display: grid;
@@ -6,7 +6,7 @@ footer {
     grid-template-rows: auto;
     gap: 10px;
     user-select: none;
-}
+} */
 
 footer a {
     color: rgb(0, 0, 0);
