@@ -4,7 +4,11 @@ interface Props{
     titulo: String
     sub_titulo: String
     dados: String
-
+    nome: String
+    data:String
+    rg:String
+    cpf:String
+    sx: String
 }
 
 export default function (props: Props) {
@@ -18,6 +22,21 @@ export default function (props: Props) {
             </div>
             <div className="dados">
                 {props.dados}
+            </div>
+            <div className="nome">
+                {props.nome}
+            </div>
+            <div className="dt">
+                {props.data}
+            </div>
+            <div className="rg">
+                {props.rg}
+            </div>
+            <div className="cpf">
+                {props.cpf}
+            </div>
+            <div className="sexo">
+                {props.sx}
             </div>
         </div>
     </>
