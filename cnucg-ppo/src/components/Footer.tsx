@@ -1,4 +1,3 @@
-import "./Footer.css"
 import fb from "../assets/facebook.svg"
 import yt from "../assets/youtube.svg"
 import insta from "../assets/instagram.svg"
@@ -12,6 +11,30 @@ const Footer = styled.footer`
     grid-template-rows: auto;
     gap: 10px;
     user-select: none;
+
+    a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    .redes_sociais {
+        display: flex;
+        gap: .5em;
+        
+
+        img {
+            width: 2em;
+        }
+    }
+    .outros {
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
 `
 export default function () {
     return <>

@@ -1,4 +1,3 @@
-import "./Tile.css"
 import styled from "styled-components"
 
 const Menu_item = styled.div`
@@ -20,15 +19,24 @@ const Menu_item = styled.div`
 const Title = styled.div`
     font-family: "Open Sans", sans-serif;
 `
-/* const Icon = styled.span`
+const Icon = styled.span`
     display: flex;
     justify-content: center;
     align-items: center;                        
     height: 100%;
-    font-size: 7em
-` */
+    font-size: 7em;
+`
+    
 const Actions = styled.div`
     height: 100px;
+`
+const Bt = styled.button`
+    height: 100%;
+    background-color: #d4d4d4;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    outline: none;
+    padding: .3em;
 `
 
 interface Props {
@@ -43,13 +51,13 @@ export default function (props: Props) {
             <Title>
                 {props.title}
             </Title>
-            <span className="icon material-symbols-outlined">
+            <Icon className="icon material-symbols-outlined">
                 {props.icon}
-            </span>
+            </Icon>
             <Actions>
-                <button data-permission="any only-unlogged" className="show">
+                <Bt data-permission="any only-unlogged" className="show">
                     {props.button}
-                </button>
+                </Bt>
             </Actions>
         </Menu_item>
     </>
