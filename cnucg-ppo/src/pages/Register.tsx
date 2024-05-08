@@ -42,13 +42,13 @@ const Bt = styled.div`
     gap: 10px; 
     height: 20px;
 `
-const Bt_pf = styled.div`
+const Bt_pf = styled.button`
     border: none;
     /* border-radius: 60px;*/
     background-color: #d60f0f;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 `
-const Bt_pj = styled.div`
+const Bt_pj = styled.button`
     border: none;
     /*border-radius: 60px;*/    
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
