@@ -16,9 +16,11 @@ const Menu_item = styled.div`
     flex-direction: column;
     justify-content: space-between;
 `
+
 const Title = styled.div`
     font-family: "Open Sans", sans-serif;
 `
+
 const Icon = styled.span`
     display: flex;
     justify-content: center;
@@ -30,13 +32,15 @@ const Icon = styled.span`
 const Actions = styled.div`
     height: 100px;
 `
-const Bt = styled.button`
+
+const Button = styled.button`
     height: 100%;
     background-color: #d4d4d4;
     border: 1px solid #d4d4d4;
     border-radius: 5px;
     outline: none;
     padding: .3em;
+    font-size: .7em;
 `
 
 interface Props {
@@ -55,9 +59,9 @@ export default function (props: Props) {
                 {props.icon}
             </Icon>
             <Actions>
-                <Bt data-permission="any only-unlogged" className="show">
+                <Button data-permission="any only-unlogged" className="show">
                     {props.button}
-                </Bt>
+                </Button>
             </Actions>
         </Menu_item>
     </>
